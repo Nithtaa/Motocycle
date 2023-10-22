@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 0 0px;
+    margin: 0 0px;
+    margin-top: 10px;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 20px;
+  }
+  nav ul li:after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #2192ff;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+  }
+  nav ul li:hover::after{
+    width:100%;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  .motorcycle {
+    display: inline-block;
+    vertical-align: Top;
+    width: 300px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .motorcycle img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .motorcycle h3 {
+    color: #333;
+    margin-top: 10px;
+  }
+  
+  .motorcycle p {
+    color: #888;
+  }
+  
+  button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  .pagination {
+    display: inline-block;
+    margin: 10px;
+  }
+  .pagination a {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: lightgray;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  .pagination a.active {
+    background-color: rgb(44, 44, 107);
+    color: white;
+  }
+  .pagination a.Prev {
+    margin:0px;
+    background-color: green;
+    color: white;
+  }
+  .pagination a.Next {
+    margin:10px;
+    background-color: green;
+    color: white;
+  }
+  
